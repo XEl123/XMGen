@@ -1,10 +1,13 @@
-<h1>XMGen</h1>
+<h2>About</h2>
+<p>This program can generate character passwords,random numbers,nicknames and database of passwords</p>
 <h2>How to start</h2>
 <p>1.Open Project1.exe file</p>
 <h2>Author</h2>
 <p>XEl123</p>
 <h2>Platform</h2>
 <p>OS Windows</p>
+<h2>Version</h2>
+<p>0.0.1</p>
 <h2>Screenshots</h2>
 <img src="screenshot1.jpg">
 <img src="screenshot2.jpg">
