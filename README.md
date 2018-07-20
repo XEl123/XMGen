@@ -1,5 +1,5 @@
 <h2>About</h2>
-<p>This program can generate character passwords,random numbers,nicknames and database of passwords</p>
+<p>This program can generate passwords,random numbers,nicknames and database of passwords</p>
 <h2>How to start</h2>
 <p>1.Open Project1.exe file</p>
 <h2>Author</h2>
