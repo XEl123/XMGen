@@ -8,8 +8,6 @@
 <p>OS Windows</p>
 <h2>Version</h2>
 <p>0.0.1</p>
-<h2>Language</h2>
-<p>C++</p>
 <h2>Problems</h2>
 <p>If the program doesn't work,try to download Borland C++ Builder 6</p>
 <h2>Screenshots</h2>
