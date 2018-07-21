@@ -10,8 +10,3 @@
 <p>0.0.1</p>
 <h2>Problems</h2>
 <p>If the program doesn't work,try to download Borland C++ Builder 6</p>
-<h2>Screenshots</h2>
-<img src="screenshot1.jpg">
-<img src="screenshot2.jpg">
-<img src="screenshot3.jpg">
-<img src="screenshot4.jpg">
