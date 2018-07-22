@@ -22,9 +22,9 @@ char bgo[100] = {'E','Y','U','I','O','A'};
 char bpr[100] = {'Q','W','R','T','P','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M'};
 char go[100] = {'e','y','u','i','o','a'};
 char pr[100] = {'q','w','r','t','p','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'};
-char tg[100] = {'~','`','!','@','#','$','%','^','&','*','(',')','-','_','+','=','{','}','[',']','|',':','<','>','?','*','q','Q','w','W','e','E','r','R','t','T','y','Y','u','U','i','I','o','O','p','P','a','A','s','S','d','D','f','F','g','G','h','H','j','J','k','K','l','L','z','Z','x','X','c','C','v','V','b','B','n','N','m','M','0','1','2','3','4','5','6','7','8','9'};
+char tg[100] = {'q','Q','w','W','e','E','r','R','t','T','y','Y','u','U','i','I','o','O','p','P','a','A','s','S','d','D','f','F','g','G','h','H','j','J','k','K','l','L','z','Z','x','X','c','C','v','V','b','B','n','N','m','M','0','1','2','3','4','5','6','7','8','9'};
 char num[10] = {'0','1','2','3','4','5','6','7','8','9'};
-char ch[100] = {'~','`','!','@','#','$','%','^','&','*','(',')','-','_','+','=','{','}','[',']','|',':','<','>','?','*','q','Q','w','W','e','E','r','R','t','T','y','Y','u','U','i','I','o','O','p','P','a','A','s','S','d','D','f','F','g','G','h','H','j','J','k','K','l','L','z','Z','x','X','c','C','v','V','b','B','n','N','m','M'};
+char ch[100] = {'q','Q','w','W','e','E','r','R','t','T','y','Y','u','U','i','I','o','O','p','P','a','A','s','S','d','D','f','F','g','G','h','H','j','J','k','K','l','L','z','Z','x','X','c','C','v','V','b','B','n','N','m','M'};
 //---------------------------------------------------------------------------
 __fastcall TForm1::TForm1(TComponent* Owner)
         : TForm(Owner)
@@ -52,6 +52,7 @@ Edit6->Clear();
 Edit7->Clear();
 Edit8->Clear();
 Edit9->Clear();
+Edit11->Clear();
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button1Click(TObject *Sender)
@@ -69,7 +70,7 @@ srand(time(0));
  else if (ComboBox1->Text == "Only characters"){
      cl = StrToInt(Edit1->Text);
      while ( cl != 0){
-        rnd = rand()%76;
+        rnd = rand()%52;
         Edit2->Text = Edit2->Text + ch[rnd];
         cl--;
      }
@@ -77,7 +78,7 @@ srand(time(0));
  else if (ComboBox1->Text == "Together"){
      cl = StrToInt(Edit1->Text);
      while ( cl != 0){
-        rnd = rand()%86;
+        rnd = rand()%62;
         Edit2->Text = Edit2->Text + tg[rnd];
         cl--;
      }
@@ -287,14 +288,14 @@ Edit10->Text = "";
  }
  else if (ComboBox1->Text == "Only characters"){
      while ( rnd3 != 0){
-        rnd = rand()%76;
+        rnd = rand()%52;
         Edit10->Text = Edit10->Text + ch[rnd];
         rnd3--;
      }
  }
  else if (ComboBox1->Text == "Together"){
      while ( rnd3 != 0){
-        rnd = rand()%86;
+        rnd = rand()%62;
         Edit10->Text = Edit10->Text + tg[rnd];
         rnd3--;
      }
