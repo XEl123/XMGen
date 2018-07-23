@@ -1,5 +1,5 @@
 <h2>About</h2>
-<p>This program can generate passwords,random numbers,nicknames and database of passwords.It is a comfortable multifunctional generator</p>
+<p>This program can generate passwords,random numbers,nicknames,IP-adress and database of passwords.It is a comfortable multifunctional generator</p>
 <h2>How to start</h2>
 <p>1.Open XMGen.exe file </p>
 <h2>Author</h2>
