@@ -523,8 +523,8 @@ object Form1: TForm1
     Visible = False
   end
   object Edit1: TEdit
-    Left = 280
-    Top = 112
+    Left = 264
+    Top = 104
     Width = 57
     Height = 21
     TabOrder = 0

@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 210
   Top = 162
   BorderStyle = bsSingle
-  Caption = 'XMGen(by XEl123)'
+  Caption = 'XMGen'
   ClientHeight = 351
   ClientWidth = 791
   Color = clBtnFace
