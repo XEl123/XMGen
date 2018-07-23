@@ -53,6 +53,7 @@ Edit7->Clear();
 Edit8->Clear();
 Edit9->Clear();
 Edit11->Clear();
+Edit12->Clear();
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::Button1Click(TObject *Sender)
@@ -115,6 +116,9 @@ void __fastcall TForm1::Button4Click(TObject *Sender)
  Label8->Visible = false;
    Edit11->Visible = false;
  Label12->Visible = false;
+  Edit12->Visible = false;
+ Label13->Visible = false;
+ Button11->Visible = false;
 }
 //---------------------------------------------------------------------------
 
@@ -146,6 +150,9 @@ void __fastcall TForm1::Button3Click(TObject *Sender)
  Label8->Visible = false;
    Edit11->Visible = false;
  Label12->Visible = false;
+  Edit12->Visible = false;
+ Label13->Visible = false;
+ Button11->Visible = false;
 }
 //---------------------------------------------------------------------------
 
@@ -186,6 +193,9 @@ void __fastcall TForm1::Button6Click(TObject *Sender)
  Label8->Visible = false;
   Edit11->Visible = false;
  Label12->Visible = false;
+  Edit12->Visible = false;
+ Label13->Visible = false;
+ Button11->Visible = false;
 }
 //---------------------------------------------------------------------------
 
@@ -266,6 +276,9 @@ void __fastcall TForm1::Button8Click(TObject *Sender)
  Label8->Visible = true;
  Edit11->Visible = true;
  Label12->Visible = true;
+  Edit12->Visible = false;
+ Label13->Visible = false;
+ Button11->Visible = false;
 }
 //---------------------------------------------------------------------------
 
@@ -311,6 +324,54 @@ Edit10->Text = "";
  cpy = 0;
  rnd3 = 0;
  yx = 0;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button10Click(TObject *Sender)
+{
+  Label1->Visible = false;
+ Label2->Visible = false;
+ Edit1->Visible = false;
+ Edit2->Visible = false;
+ ComboBox1->Visible = false;
+ Label3->Visible = false;
+ Button1->Visible = false;
+ Label6->Visible = false;
+ Label5->Visible = false;
+ Button5->Visible = false;
+ Edit3->Visible = false;
+ Edit4->Visible = false;
+ Edit5->Visible = false;
+ Label7->Visible = false;
+ Label9->Visible = false;
+ Button7->Visible = false;
+ Edit6->Visible = false;
+ Edit7->Visible = false;
+ Label10->Visible = false;
+ Button9->Visible = false;
+ Edit8->Visible = false;
+ Edit9->Visible = false;
+ Label11->Visible = false;
+ Label8->Visible = false;
+ Edit11->Visible = false;
+ Label12->Visible = false;
+ Edit12->Visible = true;
+ Label13->Visible = true;
+ Button11->Visible = true;
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button11Click(TObject *Sender)
+{
+srand(time(0));
+Edit12->Clear();
+Edit12->Text = rand() % 223;
+Edit12->Text = Edit12->Text + ".";
+Edit12->Text = Edit12->Text + rand() % 223;
+Edit12->Text = Edit12->Text + ".";
+Edit12->Text = Edit12->Text + rand() % 223;
+Edit12->Text = Edit12->Text + ".";
+Edit12->Text = Edit12->Text + rand() % 223;
 }
 //---------------------------------------------------------------------------
 
