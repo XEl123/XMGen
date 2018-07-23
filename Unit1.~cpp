@@ -35,8 +35,8 @@ __fastcall TForm1::TForm1(TComponent* Owner)
 void __fastcall TForm1::FormCreate(TObject *Sender)
 {
 ComboBox1->Items->Add("Only numbers");
-ComboBox1->Items->Add("Only characters");
-ComboBox1->Items->Add("Together");
+ComboBox1->Items->Add("Only letters");
+ComboBox1->Items->Add("All together");
 }
 //---------------------------------------------------------------------------
 
@@ -67,7 +67,7 @@ srand(time(0));
         cl--;
      }
  }
- else if (ComboBox1->Text == "Only characters"){
+ else if (ComboBox1->Text == "Only letters"){
      cl = StrToInt(Edit1->Text);
      while ( cl != 0){
         rnd = rand()%52;
@@ -75,7 +75,7 @@ srand(time(0));
         cl--;
      }
  }
- else if (ComboBox1->Text == "Together"){
+ else if (ComboBox1->Text == "All together"){
      cl = StrToInt(Edit1->Text);
      while ( cl != 0){
         rnd = rand()%62;
@@ -286,14 +286,14 @@ Edit10->Text = "";
         rnd3--;
      }
  }
- else if (ComboBox1->Text == "Only characters"){
+ else if (ComboBox1->Text == "Only letters"){
      while ( rnd3 != 0){
         rnd = rand()%52;
         Edit10->Text = Edit10->Text + ch[rnd];
         rnd3--;
      }
  }
- else if (ComboBox1->Text == "Together"){
+ else if (ComboBox1->Text == "All together"){
      while ( rnd3 != 0){
         rnd = rand()%62;
         Edit10->Text = Edit10->Text + tg[rnd];

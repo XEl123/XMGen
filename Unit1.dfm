@@ -508,9 +508,23 @@ object Form1: TForm1
     ParentFont = False
     Visible = False
   end
-  object Edit1: TEdit
+  object Label13: TLabel
     Left = 272
-    Top = 104
+    Top = 112
+    Width = 55
+    Height = 16
+    Caption = 'Your IP:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Visible = False
+  end
+  object Edit1: TEdit
+    Left = 280
+    Top = 112
     Width = 57
     Height = 21
     TabOrder = 0
@@ -745,5 +759,44 @@ object Form1: TForm1
     Height = 21
     TabOrder = 21
     Visible = False
+  end
+  object Button10: TButton
+    Left = 280
+    Top = 8
+    Width = 33
+    Height = 25
+    Caption = 'IP'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 22
+    OnClick = Button10Click
+  end
+  object Edit12: TEdit
+    Left = 352
+    Top = 112
+    Width = 169
+    Height = 21
+    TabOrder = 23
+    Visible = False
+  end
+  object Button11: TButton
+    Left = 312
+    Top = 216
+    Width = 161
+    Height = 41
+    Caption = 'Generate'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 24
+    Visible = False
+    OnClick = Button11Click
   end
 end
